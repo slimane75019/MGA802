@@ -8,3 +8,5 @@ L'utilisateur a 6 chances. A chaque fois qu'il donne une lettre, il y a plusieur
 -la lettre n'est pas dans le mot. L'utilisateur perd alors une chance
 -l'utilisateur n'a pas reussi à trouver toutes les lettres du mot au bout de 6 essais: c'est perdu
 -l'utilisateur a reussi à trouver toutes les lettres du mot avant les 6 essais: c'est gagné
+
+Il faut appeler la fonction 'jeu_pendu()' pour lancer le jeu.
