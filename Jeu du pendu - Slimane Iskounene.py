@@ -30,8 +30,7 @@ def jeu_pendu():
 
         elif lettre in mot_a_deviner:                         #si la lettre donnée est dans le mot, elle sera ajouté au mot affiché et remplacera un des '_'
             lettres_donnees.append(lettre)
-            mot_affiche = affichage_mot(mot_a_deviner, lettres_donnees)
-            print(mot_affiche)
+            print(affichage_mot(mot_a_deviner, lettres_donnees))
 
             if "_" not in mot_affiche:                         #si toutes les lettres ont été devinées, l'utilisateur a gagné
                 print("Félicitation ! Vous avez deviné le mot secret :", mot_a_deviner)
